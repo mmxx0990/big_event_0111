@@ -19,7 +19,7 @@ $(function () {
             url: '/my/userinfo',
             method: 'get',
             success: (res) => {
-                console.log(res);
+                // console.log(res);
                 if (res.status !== 0) {
                     return layer.msg(res.message)
                 }

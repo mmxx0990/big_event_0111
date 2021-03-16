@@ -45,7 +45,7 @@ $(function () {
                 height: 100
             })
             .toDataURL('image/png')
-        console.log(dataURL);
+        // console.log(dataURL);
         // console.log(typeof dataURL);
         $.ajax({
             url: '/my/update/avatar',
